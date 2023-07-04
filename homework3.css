@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ekran{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yumaloq{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: #FFF1C2;
+    position: relative;
+    overflow: hidden;
+}
+.tort1{
+    position: absolute;
+    bottom: -60px;
+    right: -25px;
+    width: 350px;
+    height: 350px;
+    background: #FD5F54;
+    transform: rotate(40deg);
+}
+.tort2{
+    width: 250px;
+    height: 250px;
+    background: #FD5F54;
+    transform: rotate(40deg);
+    position: absolute;
+    bottom: -120px;
+}
